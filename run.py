@@ -120,7 +120,41 @@ def crows_path():
             print("It's ok, I can go a little longer")
 
 
- 
+def candy_bush():
+    """
+    Fourth chapter, candy bush, the player continues along the crows path
+    and comes across a bush with candy growing out of it, the player
+    has to choose if they should eat the candy or listen to the crows
+    warning, if they eat the candy Jimmy is poisend and the game ends.
+    """
+    print("Deeper and deeper into the garden they go")
+    print("Jimmy checking his surroundings for a way out")
+    print("Then Jimmy comes to a grinding holt")
+    print("WOOOOAAAHHHH...Jimmy says, is that..a candy bush!??")
+    print("Lushest green leaves and bright coloured candy hanging from the vines")
+    print("Jimmy moves closer to the candy bush and reaches for the candy")
+    print("SQUACK...Careful Jimmy I wouldn't eat that candy if I was you")
+    print("SQUACK...It could be spelled by the witch!!!")
+    time.sleep(5)
+    print("What should Jimmy do?")
+    print("Option 1: Eat the candy from the bush")
+    print("Option 2: Listen to the crows warning")
+    print("\n")
+    options = ["1", "2"]
+    players_choice = ""
+    while players_choice not in options:
+        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        if players_choice == options[0]:
+            print("Jimmy eats the candy and starts to choke")
+            print("SQUACK...I told you not to eat it Jimmy says the crow")
+            time.sleep(2)
+            print("The crow was right, the candy was poisend and poor Jimmy dies")
+            game_over()
+        elif players_choice == options[1]:
+            print("I trust you Mr crow, I shouldn't eat candy from a witches garden!")
+
+
+
 
 
     
@@ -131,6 +165,7 @@ user_name_intro()
 witches_house()
 witches_garden()
 crows_path()
+candy_bush()
 game_over()
             
 
