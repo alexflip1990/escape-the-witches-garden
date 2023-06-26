@@ -154,7 +154,22 @@ def candy_bush():
             print("I trust you Mr crow, I shouldn't eat candy from a witches garden!")
 
 
-
+def crows_trap():
+    """
+    Fith chapter, crows trap, the player has followed the crow
+    and taken their advice only to find this path leads to a trap,
+    there are no options to choose from in this chapter it leads
+    to game over
+    """
+    print("After taking the crows advice and not eating the candy")
+    print("Jimmy carries on running....I see it Jimmy shouts!")
+    print("I SEE THE WAY OUT!!..Faster and faster he runs until..")
+    print("YIKES!! Jimmy yells and falls into a disguised pit")
+    print("HELP, HELP yells Jimmy to the crow")
+    print("SQUACK...Pooor Jimmy, you didn't really think I'd help")
+    print("you escape my master now did you?")
+    print("SQUACK...I'll go let her know supper is ready!")
+    game_over()
 
 
     
