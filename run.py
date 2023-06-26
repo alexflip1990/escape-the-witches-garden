@@ -275,11 +275,28 @@ def escape_garden():
         elif players_choice == options[1]:
             print("Jimmy scrabbles down the hole and comes out the other side safely!")
             print("Congradulations you made it out of the witches garden!!")
+            game_over
         elif players_choice == options[2]:
             print("Jimmy uses his flash light from his backpack")
             print("The witch sees the light and swoops down and captures Jimmy!")
             print("Silly boy you think I wouldn't see your flash light?? CACKLE CACKLE")
             game_over
+
+
+def game_over():
+    """
+    This function will run when ever the player dies or completes the game and will be asked
+    if they would like to play again
+    """
+    print("Would you like to start again? Yes or No?")
+    player_choice = input("")
+    if player_choice == "yes":
+        user_name_intro()
+    elif player_choice == "no":
+        print("We hope to play with you again soon!")
+        
+
+
 
 
 
@@ -297,6 +314,7 @@ candy_bush()
 crows_trap()
 own_path()
 cyclops_battle()
+escape_garden()
 game_over()
             
 
