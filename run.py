@@ -94,7 +94,34 @@ def witches_garden():
             game_over()
 
 
- 
+def crows_path():
+    """
+    Third chapter, the crow's path, the player has chosen to follow
+    the crows path, here they are given two options, both options
+    are accepted to move to the next chapter, the code will check
+    if an option has been chosen and ask the player to choose an option.
+    """
+    print("Jimmy follows the crow into the garden")
+    print("After running for a wile, they come to rest")
+    print("SQUACK...You should drink some water Jimmy to keep you hydrated said the crow")
+    print("SQUACK...There's a water fountain over there, you should drink some?")
+    time.sleep(5)
+    print("What should Jimmy do?")
+    print("Option 1: Listen to the crow and drink from the fountain")
+    print("Option 2: Ignore the crow and keep going")
+    print("\n")
+    options = ["1", "2"]
+    players_choice = ""
+    while players_choice not in options:
+        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        if players_choice == options[0]:
+            print("Thanks crow, I feel much better, let's keep going!")
+        elif players_choice == options[1]:
+            print("It's ok, I can go a little longer")
+
+
+
+
 
     
 
