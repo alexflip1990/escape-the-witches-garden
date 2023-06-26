@@ -99,7 +99,7 @@ def crows_path():
     Third chapter, the crow's path, the player has chosen to follow
     the crows path, here they are given two options, both options
     are accepted to move to the next chapter, the code will check
-    if an option has been chosen and ask the player to choose an option.
+    if an option has been chosen and ask the player to choose a valid option.
     """
     print("Jimmy follows the crow into the garden")
     print("After running for a wile, they come to rest")
@@ -152,6 +152,7 @@ def candy_bush():
             game_over()
         elif players_choice == options[1]:
             print("I trust you Mr crow, I shouldn't eat candy from a witches garden!")
+            crows_trap()
 
 
 def crows_trap():
@@ -172,6 +173,47 @@ def crows_trap():
     game_over()
 
 
+def own_path():
+    """
+    Sixth chapter, own path, this chapter comes into play
+    if the player selects option 2 in the witches garden,
+    Jimmy arrives at a river and has 3 options, options 1 and 3
+    will lead to death, option 2 will get Jimmy across the river,
+    the code will check for a selected option and prompt the player
+    to make a decision, a choice has to be made to carry on playing.
+    """
+    print("Jimmy ignores the crow and makes a run for it")
+    print("He arrives at a river where there's a brigde to cross")
+    print("Jimmy approaches the bridge but the middle has collapsed")
+    print("I think i could make that jump Jimmy says")
+    print("To the side of the bridge by the rivers edge is a old rowing boat")
+    print("Or maybe use the boat, although its's badly damaged")
+    print("Maybe I could swim across, it doesn't look too deep?")
+    print("NNOOOOOO!!! Jimmy hears the witch scream")
+    print("And watches her fly into the night sky cackling away")
+    print("I best hurry!!!! says Jimmy")
+    time.sleep(5)
+    print("What should Jimmy do?")
+    print("Option 1: Jump across the bridge")
+    print("Option 2: Use beaten up rowing boat")
+    print("Option 3: Swim across the river")
+    print("\n")
+    options = ["1", "2", "3"]
+    players_choice = ""
+    while players_choice not in options:
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
+        if players_choice == options[0]:
+            print("Jimmy jumps but doesn't make it, he falls in the river and drowns")
+            game_over()
+            elif players_choice == options[1]:
+                print("Jimmy uses the boat and makes it across, the boat sinks when he gets off..theres no going back now!")
+            elif players_choice == options[2]:
+                print("Some rivers you swim in, witches rivers you shouldn't, Jimmy is pulled the depths by mystical creatures")
+                game_over()
+
+
+
+
     
 
 
@@ -181,6 +223,7 @@ witches_house()
 witches_garden()
 crows_path()
 candy_bush()
+crows_trap()
 game_over()
             
 
