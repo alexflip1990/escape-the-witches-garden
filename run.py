@@ -209,11 +209,45 @@ def own_path():
         if players_choice == options[0]:
             print("Jimmy jumps but doesn't make it, he falls in the river and drowns")
             game_over()
-            elif players_choice == options[1]:
+        elif players_choice == options[1]:
                 print("Jimmy uses the boat and makes it across, the boat sinks when he gets off..theres no going back now!")
-            elif players_choice == options[2]:
+        elif players_choice == options[2]:
                 print("Some rivers you swim in, witches rivers you shouldn't, Jimmy is pulled the depths by mystical creatures")
                 game_over()
+
+
+def cyclops_battle():
+    """
+    Seventh chapter, cyclops battle, this chapter comes
+    into play once Jimmy makes it safely across the river,
+    where he enters some forestry and is confronted by a cyclops.
+    The player decides if Jimmy should fit the cyclops or make a run
+    for it, fighting the cyclops will result in death.
+    The code will check for which option has been selected and prompt
+    the player to make a choice
+    """
+    print("From the river Jimmy runs into a small forest area full of overgrowth")
+    print("In the center is a clear opening")
+    print("That looks like a good place to rest says Jimmy")
+    print("Jimmy lays down to rest for a moment")
+    time.sleep(2)
+    print("From the shadows a giant cyclops emerges and spots Jimmy")
+    print("It charges towards Jimmy full of rage")
+    time.sleep(2)
+    print("What should Jimmy do?")
+    print("Option 1: Use slingshot from backpack to fight the cyclops")
+    print("Option 2: RUN, RUN, RUN!!")
+    print("\n")
+    options = ["1", "2"]
+    players_choice = ""
+    while players_choice not in options:
+        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        if players_choice == options[0]:
+            print("This isn't David v Goliath! Jimmy gets eaten by the cyclops")
+            game_over
+        elif players_choice == options[1]:
+            print("The cyclops is tooo big to keep up with me through the forest!")
+
 
 
 
@@ -229,6 +263,7 @@ crows_path()
 candy_bush()
 crows_trap()
 own_path()
+cyclops_battle()
 game_over()
             
 
