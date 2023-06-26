@@ -87,8 +87,10 @@ def witches_garden():
         players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
         if players_choice == options[0]:
             print("SQUACK...Follow me Jimmy let's get you outta here!")
+            crows_path()
         elif players_choice == options[1]:
             print("Thanks, but no thanks, I'll find my own way out")
+            own_path()
         elif players_choice == options[2]:
             print("You shouted for help and woke the witch, tonights special is Jimmy soup!")
             game_over()
@@ -116,8 +118,10 @@ def crows_path():
         players_choice = str(input("Which option do you choose, 1 or 2?"))
         if players_choice == options[0]:
             print("Thanks crow, I feel much better, let's keep going!")
+            candy_bush()
         elif players_choice == options[1]:
             print("It's ok, I can go a little longer")
+            candy_bush()
 
 
 def candy_bush():
@@ -224,6 +228,7 @@ witches_garden()
 crows_path()
 candy_bush()
 crows_trap()
+own_path()
 game_over()
             
 
