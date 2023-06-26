@@ -41,9 +41,9 @@ def witches_house():
     print("To discover he is trapped in a cage suspended from a beam")
     print("With no memory of how he got here he begins to panic")
     print("He looks around and see's a cauldron filled with potion")
-    print("And scary looking witch who appears to be asleep")
+    print("And a scary looking witch who appears to be asleep")
     print("To his right he can see a key, it's within arms reach!\n")
-    time.sleep(3)
+    time.sleep(5)
     print("What do you do?")
     print("Option 1: Reach for the key and escape the cage")
     print("Option 2: Stay in the cage and hope help comes")
@@ -54,15 +54,55 @@ def witches_house():
         players_choice = str(input("Which option do you choose, 1 or 2?"))
         if players_choice == options[0]:
             print("Jimmy escapes the cage and dashes out the door!")
+            print("\n")
+            time.sleep(3)
+            witches_garden()
         elif players_choice == options[1]:
             print("Help does not come, no one knows where Jimmy is!")
             game_over()
+
+
+def witches_garden():
+    """
+    Second chapter, the witches garden, here the player has 3 
+    options to choose from. The code will check if an option has
+    been choosen and is promted to choose again if an invalid option
+    is chosen.
+    """
+    print("Phew, I made it out says Jimmy....but where the heck am I?")
+    print("A crow lands on a near tree")
+    print("SQUACK.... you ok there friend? What's your name?")
+    print("M mm my names Jimmy he replies")
+    print("SQUACK...Well Jimmy a kid like you has no place in the witches garden")
+    print("SQUACK...It's very dangerous here! I could help you escape?\n")
+    time.sleep(5)
+    print("What should Jimmy do?")
+    print("Option 1: Follow the crow's path through the garden")
+    print("Option 2: Choose his own path")
+    print("Option 3: Shout for help!")
+    print("\n")
+    options = ["1", "2", "3"]
+    players_choice = ""
+    while players_choice not in options:
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
+        if players_choice == options[0]:
+            print("SQUACK...Follow me Jimmy let's get you outta here!")
+        elif players_choice == options[1]:
+            print("Thanks, but no thanks, I'll find my own way out")
+        elif players_choice == options[2]:
+            print("You shouted for help and woke the witch, tonights special is Jimmy soup!")
+            game_over()
+
+
+ 
+
     
 
 
 
 user_name_intro()
 witches_house()
+witches_garden()
 game_over()
             
 
