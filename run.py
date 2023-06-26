@@ -249,6 +249,39 @@ def cyclops_battle():
             print("The cyclops is tooo big to keep up with me through the forest!")
 
 
+def escape_garden():
+    """
+    Eighth chapter, escape garden, this chapter runs if the cyclops
+    battle is won, the player has 3 options to choose from, the player
+    is prompted to choose an option to complete the game.
+    """
+    print("Jimmy makes it out of the forest in one piece!")
+    print("And see's a red door in the distance amongst a wall of hedges, is that the exit!? Jimmy says")
+    print("Next to the red door is a rabbit hole, it looks like it goes under the hedge")
+    print("I don;t know about this, maybe I should use my flash light and look for another way out Jimmy says")
+    time.sleep(5)
+    print("What should Jimmy do?")
+    print("Option 1: Open the red door and run as fast as you can")
+    print("Option 2: Get down and dirty down the rabbit hole")
+    print("Option 3: Use flash light to look for another exit")
+    options = ["1", "2", "3"]
+    players_choice = ""
+    while players_choice not in options:
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
+        if players_choice == options[0]:
+            print("The red door teleports Jimmy right back to the witches house")
+            print("CACKLE...I knew you'd pick the easy way out, welcome back Jimmy!")
+            game_over
+        elif players_choice == options[1]:
+            print("Jimmy scrabbles down the hole and comes out the other side safely!")
+            print("Congradulations you made it out of the witches garden!!")
+        elif players_choice == options[2]:
+            print("Jimmy uses his flash light from his backpack")
+            print("The witch sees the light and swoops down and captures Jimmy!")
+            print("Silly boy you think I wouldn't see your flash light?? CACKLE CACKLE")
+            game_over
+
+
 
 
 
