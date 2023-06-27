@@ -60,6 +60,8 @@ def witches_house():
         elif players_choice == options[1]:
             print("Help does not come, no one knows where Jimmy is!")
             game_over()
+        else:
+            print("Please select options 1 or 2")
 
 
 def witches_garden():
@@ -94,6 +96,8 @@ def witches_garden():
         elif players_choice == options[2]:
             print("You shouted for help and woke the witch, tonights special is Jimmy soup!")
             game_over()
+        else:
+            print("Please select options 1, 2 or 3")
 
 
 def crows_path():
@@ -122,6 +126,8 @@ def crows_path():
         elif players_choice == options[1]:
             print("It's ok, I can go a little longer")
             candy_bush()
+        else:
+            print("Please select options 1 or 2")
 
 
 def candy_bush():
@@ -157,6 +163,8 @@ def candy_bush():
         elif players_choice == options[1]:
             print("I trust you Mr crow, I shouldn't eat candy from a witches garden!")
             crows_trap()
+        else:
+            print("Please select options 1 or 2")
 
 
 def crows_trap():
@@ -214,6 +222,8 @@ def own_path():
         elif players_choice == options[2]:
                 print("Some rivers you swim in, witches rivers you shouldn't, Jimmy is pulled the depths by mystical creatures")
                 game_over()
+        else:
+            print("Please select options 1, 2 or 3")
 
 
 def cyclops_battle():
@@ -247,6 +257,8 @@ def cyclops_battle():
             game_over
         elif players_choice == options[1]:
             print("The cyclops is tooo big to keep up with me through the forest!")
+        else:
+            print("Please select options 1 or 2")
 
 
 def escape_garden():
@@ -281,6 +293,8 @@ def escape_garden():
             print("The witch sees the light and swoops down and captures Jimmy!")
             print("Silly boy you think I wouldn't see your flash light?? CACKLE CACKLE")
             game_over
+        else:
+            print("Please select options 1, 2 or 3")
 
 
 def game_over():
@@ -297,17 +311,7 @@ def game_over():
         exit()
     else:
         print("You must type yes or no")
-
-
-
-
-
-
-
-
-    
-
-
+  
 
 user_name_intro()
 witches_house()
