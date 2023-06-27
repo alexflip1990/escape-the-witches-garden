@@ -17,9 +17,9 @@ def user_name_intro():
     print("Please enter your name\n")
     username = ""
     while True:
-        username = input("")
-        if not username.isalpha():
-            print("Sorry numbers can't be accepted")
+        username = input("Enter name here:")
+        if username.isdigit():
+            print("Sorry sole numbers can't be accepted")
             continue
         else:
             print("\n")
