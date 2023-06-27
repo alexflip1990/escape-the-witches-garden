@@ -4,6 +4,7 @@ from termcolor import colored, cprint
 import random
 import time
 
+
 def user_name_intro():
     """
      The introduction section, this section explains what the rules for
@@ -33,7 +34,7 @@ def witches_house():
     First chapter, the witches house, here the player is asked
     to make a choice between two options, depending on which option
     they choose will result in a different outcome. The code checks
-    which option has been selected and if an invalid option has 
+    which option has been selected and if an invalid option has
     been chosen, will ask the player to select again.
     """
     print("From a deep sleep Jimmy begins to open his eyes")
@@ -65,7 +66,7 @@ def witches_house():
 
 def witches_garden():
     """
-    Second chapter, the witches garden, here the player has 3 
+    Second chapter, the witches garden, here the player has 3
     options to choose from. The code will check if an option has
     been choosen and is promted to choose again if an invalid option
     is chosen.
@@ -217,10 +218,10 @@ def own_path():
             print("Jimmy jumps but doesn't make it, he falls in the river and drowns")
             game_over()
         elif players_choice == options[1]:
-                print("Jimmy uses the boat and makes it across, the boat sinks when he gets off..theres no going back now!")
+            print("Jimmy uses the boat and makes it across, the boat sinks when he gets off..theres no going back now!")
         elif players_choice == options[2]:
-                print("Some rivers you swim in, witches rivers you shouldn't, Jimmy is pulled the depths by mystical creatures")
-                game_over()
+            print("Some rivers you swim in, witches rivers you shouldn't, Jimmy is pulled the depths by mystical creatures")
+            game_over()
         else:
             print("Please select options 1, 2 or 3")
 
@@ -309,8 +310,9 @@ def game_over():
         print("We hope to play with you again soon!")
         exit()
     else:
-        print("You must type yes or no")
-  
+        print("You must type yes or no")  
+
+
 """
 Calls all the game functions
 """
