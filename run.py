@@ -20,7 +20,6 @@ def user_name_intro():
         username = input("Enter name here:")
         if username.isdigit():
             print("Sorry sole numbers can't be accepted")
-            continue
         else:
             print("\n")
             print("Welcome " + username)
