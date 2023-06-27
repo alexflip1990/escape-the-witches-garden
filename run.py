@@ -89,12 +89,17 @@ def witches_garden():
         players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
         if players_choice == options[0]:
             print("SQUACK...Follow me Jimmy let's get you outta here!")
+            ("\n")
+            time.sleep(3)
             crows_path()
         elif players_choice == options[1]:
             print("Thanks, but no thanks, I'll find my own way out")
+            ("\n")
+            time.sleep(3)
             own_path()
         elif players_choice == options[2]:
             print("You shouted for help and woke the witch, tonights special is Jimmy soup!")
+            time.sleep(2)
             game_over()
         else:
             print("Please select options 1, 2 or 3")
@@ -122,9 +127,13 @@ def crows_path():
         players_choice = str(input("Which option do you choose, 1 or 2?"))
         if players_choice == options[0]:
             print("Thanks crow, I feel much better, let's keep going!")
+            ("\n")
+            time.sleep(3)
             candy_bush()
         elif players_choice == options[1]:
             print("It's ok, I can go a little longer")
+            ("\n")
+            time.sleep(3)
             candy_bush()
         else:
             print("Please select options 1 or 2")
@@ -157,11 +166,12 @@ def candy_bush():
         if players_choice == options[0]:
             print("Jimmy eats the candy and starts to choke")
             print("SQUACK...I told you not to eat it Jimmy says the crow")
-            time.sleep(2)
             print("The crow was right, the candy was poisend and poor Jimmy dies")
+            time.sleep(2)
             game_over()
         elif players_choice == options[1]:
             print("I trust you Mr crow, I shouldn't eat candy from a witches garden!")
+            time.sleep(3)
             crows_trap()
         else:
             print("Please select options 1 or 2")
@@ -182,6 +192,7 @@ def crows_trap():
     print("SQUACK...Pooor Jimmy, you didn't really think I'd help")
     print("you escape my master now did you?")
     print("SQUACK...I'll go let her know supper is ready!")
+    ("\n")
     game_over()
 
 
@@ -216,11 +227,14 @@ def own_path():
         players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
         if players_choice == options[0]:
             print("Jimmy jumps but doesn't make it, he falls in the river and drowns")
+            ("\n")
             game_over()
         elif players_choice == options[1]:
             print("Jimmy uses the boat and makes it across, the boat sinks when he gets off..theres no going back now!")
         elif players_choice == options[2]:
             print("Some rivers you swim in, witches rivers you shouldn't, Jimmy is pulled the depths by mystical creatures")
+            ("\n")
+            time.sleep(2)
             game_over()
         else:
             print("Please select options 1, 2 or 3")
@@ -254,6 +268,8 @@ def cyclops_battle():
         players_choice = str(input("Which option do you choose, 1 or 2?"))
         if players_choice == options[0]:
             print("This isn't David v Goliath! Jimmy gets eaten by the cyclops")
+            ("\n")
+            time.sleep(2)
             game_over
         elif players_choice == options[1]:
             print("The cyclops is tooo big to keep up with me through the forest!")
@@ -283,15 +299,21 @@ def escape_garden():
         if players_choice == options[0]:
             print("The red door teleports Jimmy right back to the witches house")
             print("CACKLE...I knew you'd pick the easy way out, welcome back Jimmy!")
+            ("\n")
+            time.sleep(2)
             game_over
         elif players_choice == options[1]:
             print("Jimmy scrabbles down the hole and comes out the other side safely!")
             print("Congradulations you made it out of the witches garden!!")
+            ("\n")
+            time.sleep(2)
             game_over
         elif players_choice == options[2]:
             print("Jimmy uses his flash light from his backpack")
             print("The witch sees the light and swoops down and captures Jimmy!")
             print("Silly boy you think I wouldn't see your flash light?? CACKLE CACKLE")
+            ("\n")
+            time.sleep(2)
             game_over
         else:
             print("Please select options 1, 2 or 3")
