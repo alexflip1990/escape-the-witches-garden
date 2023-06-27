@@ -310,7 +310,7 @@ def game_over():
         print("We hope to play with you again soon!")
         exit()
     else:
-        print("You must type yes or no")  
+        print("You must type yes or no")
 
 
 """
@@ -326,6 +326,3 @@ own_path()
 cyclops_battle()
 escape_garden()
 game_over()
-            
-
-
