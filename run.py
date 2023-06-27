@@ -312,7 +312,9 @@ def game_over():
     else:
         print("You must type yes or no")
   
-
+"""
+Calls all the game functions
+"""
 user_name_intro()
 witches_house()
 witches_garden()
