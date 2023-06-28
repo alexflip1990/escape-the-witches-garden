@@ -19,8 +19,8 @@ def user_name_intro():
     username = ""
     while True:
         username = input("Enter name here: ")
-        if username.isdigit():
-            print("Sorry sole numbers can't be accepted")
+        if username.strip() != "" or username.isdigit:
+            print("Sorry sole numbers or empty inputs can't be accepted")
         else:
             print("\n")
             print("Welcome " + username)
