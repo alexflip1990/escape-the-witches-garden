@@ -336,21 +336,16 @@ def game_over():
         user_name_intro()
     elif player_choice == "no":
         print("We hope to play with you again soon!")
-        exit()
+        sys.exit()
     else:
         print("You must type yes or no")
 
 
-"""
-Calls all the game functions
-"""
-user_name_intro()
-witches_house()
-witches_garden()
-crows_path()
-candy_bush()
-crows_trap()
-own_path()
-cyclops_battle()
-escape_garden()
-game_over()
+def main():
+    """
+    Calls the games functions
+    """
+    user_name_intro()
+
+main()
+
