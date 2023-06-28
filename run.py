@@ -18,7 +18,7 @@ def user_name_intro():
     print("Please enter your name\n")
     username = ""
     while True:
-        username = input("Enter name here:")
+        username = input("Enter name here: ")
         if username.isdigit():
             print("Sorry sole numbers can't be accepted")
         else:
@@ -51,7 +51,7 @@ def witches_house():
     options = ["1", "2"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        players_choice = str(input("Which option do you choose, 1 or 2? "))
         if players_choice == options[0]:
             print("Jimmy escapes the cage and dashes out the door!")
             print("\n")
@@ -87,7 +87,7 @@ def witches_garden():
     options = ["1", "2", "3"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
         if players_choice == options[0]:
             print("SQUACK...Follow me Jimmy let's get you outta here!")
             ("\n")
@@ -128,7 +128,7 @@ def crows_path():
     options = ["1", "2"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        players_choice = str(input("Which option do you choose, 1 or 2? "))
         if players_choice == options[0]:
             print("Thanks crow, I feel much better, let's keep going!")
             ("\n")
@@ -167,7 +167,7 @@ def candy_bush():
     options = ["1", "2"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        players_choice = str(input("Which option do you choose, 1 or 2? "))
         if players_choice == options[0]:
             print("Jimmy eats the candy and starts to choke")
             print("SQUACK...I told you not to eat it Jimmy says the crow")
@@ -231,20 +231,20 @@ def own_path():
     options = ["1", "2", "3"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
         if players_choice == options[0]:
-            print("Jimmy jumps but doesn't make it, he falls" +
+            print("Jimmy jumps but doesn't make it, he falls " +
                   "in the river and drowns")
             ("\n")
             game_over()
         elif players_choice == options[1]:
-            print("Jimmy uses the boat and makes it across, the boat sinks" +
+            print("Jimmy uses the boat and makes it across, the boat sinks " +
                   "when he gets off..theres no going back now!")
             ("\n")
             time.sleep(3)
             cyclops_battle()
         elif players_choice == options[2]:
-            print("Some rivers you swim in, witches rivers you shouldn't," +
+            print("Some rivers you swim in, witches rivers you shouldn't, " +
                   "Jimmy is pulled the depths by mystical creatures")
             ("\n")
             time.sleep(2)
@@ -263,7 +263,7 @@ def cyclops_battle():
     The code will check for which option has been selected and prompt
     the player to make a choice
     """
-    print("From the river Jimmy runs into a small forest area" +
+    print("From the river Jimmy runs into a small forest area " +
           "full of overgrowth")
     print("In the center is a clear opening")
     print("That looks like a good place to rest says Jimmy")
@@ -279,15 +279,15 @@ def cyclops_battle():
     options = ["1", "2"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1 or 2?"))
+        players_choice = str(input("Which option do you choose, 1 or 2? "))
         if players_choice == options[0]:
-            print("This isn't David v Goliath! Jimmy gets eaten" +
+            print("This isn't David v Goliath! Jimmy gets eaten " +
                   "by the cyclops")
             ("\n")
             time.sleep(2)
             game_over()
         elif players_choice == options[1]:
-            print("The cyclops is tooo big to keep up" +
+            print("The cyclops is tooo big to keep up " +
                   "with me through the forest!")
             ("\n")
             time.sleep(3)
@@ -303,11 +303,11 @@ def escape_garden():
     is prompted to choose an option to complete the game.
     """
     print("Jimmy makes it out of the forest in one piece!")
-    print("And see's a red door in the distance amongst a wall of hedges," +
+    print("And see's a red door in the distance amongst a wall of hedges, " +
           "is that the exit!? Jimmy says")
-    print("Next to the red door is a rabbit hole," +
+    print("Next to the red door is a rabbit hole, " +
           "it looks like it goes under the hedge")
-    print("I don;t know about this, maybe I should use my flash light and" +
+    print("I don;t know about this, maybe I should use my flash light and " +
           "look for another way out Jimmy says\n")
     time.sleep(5)
     print("What should Jimmy do?")
@@ -317,17 +317,17 @@ def escape_garden():
     options = ["1", "2", "3"]
     players_choice = ""
     while players_choice not in options:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3?"))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
         if players_choice == options[0]:
-            print("The red door teleports Jimmy right back" +
+            print("The red door teleports Jimmy right back " +
                   "to the witches house")
-            print("CACKLE...I knew you'd pick the easy way out," +
+            print("CACKLE...I knew you'd pick the easy way out, " +
                   "welcome back Jimmy!")
             ("\n")
             time.sleep(2)
             game_over()
         elif players_choice == options[1]:
-            print("Jimmy scrabbles down the hole and comes out" +
+            print("Jimmy scrabbles down the hole and comes out " +
                   "the other side safely!")
             print("Congradulations you made it out of the witches garden!!")
             ("\n")
@@ -335,9 +335,9 @@ def escape_garden():
             game_over()
         elif players_choice == options[2]:
             print("Jimmy uses his flash light from his backpack")
-            print("The witch sees the light and swoops down" +
+            print("The witch sees the light and swoops down " +
                   "and captures Jimmy!")
-            print("Silly boy you think I wouldn't see your" +
+            print("Silly boy you think I wouldn't see your " +
                   "flash light?? CACKLE CACKLE")
             ("\n")
             time.sleep(2)
@@ -352,7 +352,7 @@ def game_over():
     completes the game and will be asked
     if they would like to play again
     """
-    print("GAME OVER!..Would you like to start again? Yes or No?")
+    print("GAME OVER!..Would you like to start again? Yes or No? ")
     player_choice = ""
     while True:
         player_choice = str(input("").lower())
