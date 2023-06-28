@@ -331,14 +331,16 @@ def game_over():
     if they would like to play again
     """
     print("GAME OVER!..Would you like to start again? Yes or No?")
-    player_choice = str(input(""))
-    if player_choice == "yes":
-        user_name_intro()
-    elif player_choice == "no":
-        print("We hope to play with you again soon!")
-        sys.exit()
-    else:
-        print("You must type yes or no")
+    player_choice = ""
+    while True:
+        player_choice = str(input("").lower())
+        if player_choice == "yes":
+            user_name_intro()
+        elif player_choice == "no":
+            print("We hope to play with you again soon!")
+            exit()
+        else:
+            print("You must type yes or no")
 
 
 def main():
