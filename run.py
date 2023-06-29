@@ -1,7 +1,6 @@
 """ Import libraries for game """
 import sys
 from termcolor import colored, cprint
-import random
 import time
 
 
@@ -21,7 +20,7 @@ def user_name_intro():
     while True:
         username = input("Enter name here: ")
         if not username.isalnum():
-            print("No symbols or blank spaces allowed")         
+            print("No symbols or blank spaces allowed")
         else:
             ("\n")
             print("Welcome " + username)
