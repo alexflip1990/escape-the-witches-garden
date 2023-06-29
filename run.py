@@ -78,7 +78,8 @@ def witches_garden():
     cprint("M mm my names Jimmy he replies", "red")
     cprint("SQUACK...Well Jimmy a kid like you has no place in the" +
            "witches garden", "cyan")
-    cprint("SQUACK...It's very dangerous here! I could help you escape?\n", "cyan")
+    cprint("SQUACK...It's very dangerous here! I could help you escape?\n",
+           "cyan")
     time.sleep(5)
     print("What should Jimmy do?")
     print("Option 1: Follow the crow's path through the garden")
@@ -119,9 +120,9 @@ def crows_path():
     print("Jimmy follows the crow into the garden")
     print("After running for a wile, they come to rest")
     cprint("SQUACK...You should drink some water Jimmy" +
-          "to keep you hydrated said the crow", "cyan")
+           "to keep you hydrated said the crow", "cyan")
     cprint("SQUACK...There's a water fountain over there," +
-          "you should drink some?\n", "cyan")
+           "you should drink some?\n", "cyan")
     time.sleep(5)
     print("What should Jimmy do?")
     print("Option 1: Listen to the crow and drink from the fountain")
@@ -160,7 +161,8 @@ def candy_bush():
     print("Lushest green leaves and bright coloured candy" +
           "hanging from the vines")
     print("Jimmy moves closer to the candy bush and reaches for the candy")
-    cprint("SQUACK...Careful Jimmy I wouldn't eat that candy if I was you", "cyan")
+    cprint("SQUACK...Careful Jimmy I wouldn't eat that candy if I was you\n",
+           "cyan")
     cprint("SQUACK...It could be spelled by the witch!!!\n", "cyan")
     time.sleep(5)
     print("What should Jimmy do?")
@@ -308,17 +310,17 @@ def escape_garden():
     """
     print("Jimmy makes it out of the forest in one piece!")
     cprint("And see's a red door in the distance amongst a wall of hedges, " +
-          "is that the exit!? Jimmy says", "red")
+           "is that the exit!? Jimmy says", "red")
     print("Next to the red door is a rabbit hole, " +
           "it looks like it goes under the hedge")
     cprint("I don't know about this, maybe I should use my flash light and " +
-          "look for another way out Jimmy says\n", "red")
+           "look for another way out Jimmy says\n", "red")
     time.sleep(5)
     print("What should Jimmy do?")
     print("Option 1: Open the red door and run as fast as you can")
     print("Option 2: Get down and dirty down the rabbit hole")
     print("Option 3: Use flash light to look for another exit")
-    option_1 = ("The red door teleports Jimmy right back to the\n " 
+    option_1 = ("The red door teleports Jimmy right back to the\n "
                 "witches house\n "
                 "CACKLE...I knew you'd pick the easy way out,\n "
                 "welcome back Jimmy!")
@@ -364,7 +366,8 @@ def game_over():
         if player_choice == "yes":
             user_name_intro()
         elif player_choice == "no":
-            cprint("We hope to play with you again soon!", "magenta", attrs=["bold"])
+            cprint("We hope to play with you again soon!\n",
+                   "magenta", attrs=["bold"])
             exit()
         else:
             print("You must type yes or no")
