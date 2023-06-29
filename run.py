@@ -9,7 +9,8 @@ def user_name_intro():
     """
      The introduction section, this section explains what the rules for
      the game are and asks the player to input their name whilst running
-     a while loop to ensure players name is alphabetical.
+     a while loop to ensure players name does not have symbols or empty
+     spaces.
     """
     cprint("Welcome to Escape the Witche's garden", "magenta", attrs=["bold"])
     print("The rules are simple")
@@ -19,14 +20,15 @@ def user_name_intro():
     username = ""
     while True:
         username = input("Enter name here: ")
-        if username.isdigit():
-            print("Sorry sole numbers or empty inputs can't be accepted")
+        if not username.isalnum():
+            print("No symbols or blank spaces allowed")         
         else:
-            print("\n")
+            ("\n")
             print("Welcome " + username)
-            print("Let's help Jimmy escape the Witches garden!")
-            print("\n")
-            witches_house()
+            break
+    print("Let's help Jimmy escape the Witches garden!")
+    print("\n")
+    witches_house()
 
 
 def witches_house():
