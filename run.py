@@ -96,7 +96,7 @@ def witches_garden():
     option_3 = ("You shout for help and woke the witch, tonights special\n"
                 "..Jimmy soup!")
     players_choice = ""
-    while True: 
+    while True:
         players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
         if players_choice == "1":
             cprint(option_1, "cyan")
