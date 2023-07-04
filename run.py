@@ -310,7 +310,7 @@ def cyclops_battle():
     option_1 = "This isn't David v Goliath! Jimmy gets eaten by the cyclops"
     option_2 = "The cyclops is tooo big to keep up with me through the forest!"
     players_choice = ""
-    while true:
+    while True:
         players_choice = str(input("Which option do you choose, 1 or 2? "))
         if players_choice == "1":
             print(option_1)
