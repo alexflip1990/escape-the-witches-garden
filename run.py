@@ -18,7 +18,7 @@ def user_name_intro():
     print("Please enter your name\n")
     username = ""
     while True:
-        username = input("Enter name here: ")
+        username = input("Enter name here:\n ")
         if not username.isalnum():
             print("No symbols or blank spaces allowed")
         else:
