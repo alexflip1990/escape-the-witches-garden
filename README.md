@@ -61,4 +61,7 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 
 ![screen shot of candy bush image in gameplay](assets/readme-images/candy_bush.png)
 
+### Crows trap
+- In this section there are no options for the player to choose from there is just the story line to follow.
+
 
