@@ -46,3 +46,8 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 
 ![screen shot of witches house image in gameplay](assets/readme-images/witches_house.png)
 
+###  Witches garden
+- The next section of the game is the witches garden, this section is reached only if the player selects the correct option from the first chapter, the player is greeted by a crow and is given three options to choose from.
+
+![screen shot of witches garden image in gameplay](assets/readme-images/witches_garden.png)
+
