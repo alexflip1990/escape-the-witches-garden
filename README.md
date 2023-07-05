@@ -64,4 +64,9 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 ### Crows trap
 - In this section there are no options for the player to choose from there is just the story line to follow.
 
+### Own path
+- Here you will to make Jimmy choose between three options, only one will get Jimmy through to the next section.
+
+![screen shot of own path image in gameplay](assets/readme-images/own_path.png) 
+
 
