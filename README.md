@@ -108,4 +108,15 @@ Solved bugs
 ## Unfixed bugs
    - There are no unfixed bugs.
 
+## Deployment
+The website was deployed using Heroku with the following steps
+
+ - Login to Heroku (Create an account if necessary)
+  -   Click New in the Heroku dashboard and select "Create new app."
+  -   Write a name for the app and choose your region and click "Create App."
+  -   In the settings tab for the new application, created one Config name PORT and has a value of 8000.
+  -   Add two build pack scripts: Python and Nodejs (in that order)
+  -   Connect your Heroku with your GitHub account and the repository you are working with.
+  - At the bottom, you can do a manual deployment or set it to automatic deployment to deploy every time your repo is updated.
+
 
