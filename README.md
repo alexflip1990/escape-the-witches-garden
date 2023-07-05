@@ -131,4 +131,9 @@ The website was deployed using Heroku with the following steps
 - How to import time and use it [Time.sleep](https://www.digitalocean.com/community/tutorials/python-time-sleep)
 - How to get an input to accept numbers and letters only [Isalnum](https://www.programiz.com/python-programming/methods/string/isalnum)
 
+## Acknowledgements
+ - I would like to thank Joanne from code institute tutor for advising me to use a while loop with break/continue for user input on questions in the game.
+ - I would like to thank Jason from code institute tutor showing me to wrap the text in () when the code was too long as the "\n" alone would not work.
+ - I would like to thank my tutor Lauren for all the support she has given me until now and showing me the "\n" to create a new line.
+
 
