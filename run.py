@@ -53,7 +53,7 @@ def witches_house():
     option_2 = "Help does not come, no one knows where Jimmy is!"
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1 or 2? "))
+        players_choice = str(input("Which option do you choose, 1 or 2?\n "))
         if players_choice == "1":
             print(option_1)
             print("\n")
@@ -97,7 +97,7 @@ def witches_garden():
                 "..Jimmy soup!")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n "))
         if players_choice == "1":
             cprint(option_1, "cyan")
             ("\n")
@@ -142,7 +142,7 @@ def crows_path():
     option_2 = "It's ok, I can go a little longer"
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1 or 2? "))
+        players_choice = str(input("Which option do you choose, 1 or 2?\n "))
         ("\n")
         if players_choice == "1":
             cprint(option_1, "red")
@@ -191,7 +191,7 @@ def candy_bush():
                 "from a witches garden!")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1 or 2? "))
+        players_choice = str(input("Which option do you choose, 1 or 2?\n "))
         if players_choice == "1":
             cprint(option_1, "cyan")
             time.sleep(2)
@@ -260,7 +260,7 @@ def own_path():
                 "Jimmy is pulled the depths by mystical creatures")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n "))
         if players_choice == "1":
             print(option_1)
             ("\n")
@@ -311,7 +311,7 @@ def cyclops_battle():
     option_2 = "The cyclops is tooo big to keep up with me through the forest!"
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1 or 2? "))
+        players_choice = str(input("Which option do you choose, 1 or 2?\n "))
         if players_choice == "1":
             print(option_1)
             ("\n")
@@ -361,7 +361,7 @@ def escape_garden():
                 "flash light?? CACKLE CACKLE")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3? "))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n "))
         if players_choice == "1":
             cprint(option_1, "green")
             ("\n")
@@ -394,7 +394,7 @@ def game_over():
     print("GAME OVER!..Would you like to start again? Yes or No? ")
     player_choice = ""
     while True:
-        player_choice = str(input("").lower())
+        player_choice = str(input("\n").lower())
         if player_choice == "yes":
             user_name_intro()
         elif player_choice == "no":
