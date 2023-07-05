@@ -33,3 +33,10 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
   ### Returning player
    - As a returning player I want to attempt to play the game better than the first, by choosing different inputs and seeing the different out put results.
    - The returning player will be more familiar with the paths and will know which path they should not take from previous game play. 
+
+   ## Game play
+
+### Welcome section
+- Here the player is greeted with the welcome message and the rules of the game are explained, they are then required to enter their player name using letters and numbers only, a message will be displayed if any symbols or blank spaces are entered.
+
+![screen shot of welcome image in gameplay](assets/readme-images/welcome_image.png)
