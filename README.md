@@ -40,3 +40,9 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 - Here the player is greeted with the welcome message and the rules of the game are explained, they are then required to enter their player name using letters and numbers only, a message will be displayed if any symbols or blank spaces are entered.
 
 ![screen shot of welcome image in gameplay](assets/readme-images/welcome_image.png)
+
+### Witches house
+- Here is the first chapter of the game, there is some story line which is displayed and the player is asked to choose an option, each option resulting in a different outcome.
+
+![screen shot of witches house image in gameplay](assets/readme-images/witches_house.png)
+
