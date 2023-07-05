@@ -97,7 +97,7 @@ def witches_garden():
                 "..Jimmy soup!")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n "))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n"))
         if players_choice == "1":
             cprint(option_1, "cyan")
             ("\n")
@@ -260,7 +260,7 @@ def own_path():
                 "Jimmy is pulled the depths by mystical creatures")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n "))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n"))
         if players_choice == "1":
             print(option_1)
             ("\n")
@@ -361,7 +361,7 @@ def escape_garden():
                 "flash light?? CACKLE CACKLE")
     players_choice = ""
     while True:
-        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n "))
+        players_choice = str(input("Which option do you choose, 1, 2 or 3?\n"))
         if players_choice == "1":
             cprint(option_1, "green")
             ("\n")
