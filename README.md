@@ -56,4 +56,9 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 
 ![screen shot of crows path image in gameplay](assets/readme-images/crows_path.png)
 
+### Candy bush
+- Here there is more story line to follow and the player is asked to choose from the two options.
+
+![screen shot of candy bush image in gameplay](assets/readme-images/candy_bush.png)
+
 
