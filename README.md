@@ -16,3 +16,8 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
   - Audience: 
 
     * This game is designed mostly for a younger audience but can be played by all ages, its an interesting way to show younger players how text based games are created.
+
+    ## Lucid chart 
+   * Escape the witches garden is a text-based game, for this reason no work was done for creating front end styling using HTML and CSS. Instead focus was put on creating a diagram of the application and using that as a base for creating the code.
+     
+![screen shot of lucid chart image](assets/readme-images/escape_the_witche's_garden_lucidchart.png)
