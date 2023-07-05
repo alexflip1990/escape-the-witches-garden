@@ -99,4 +99,13 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
  - [x] Tested code on player name to only accept numbers or letters.
  - [x] Tested code for options input to only accept the option numbers provided.
 
+ ## Bugs
+Solved bugs
+ - While testing the code I had an issue with the input section for the questions, it was allowing the player to input a single letter or a number that wasn't in the options. This was resolved using a While loop and using the break/continue.
+ - There were a few lines of code that were too long, this was corrected by using "\n" to create a new line.
+ - While testing the code for the username input the code was continuously repeating the Welcome and the user name, this was resolved by using break after to exit the loop. 
+
+## Unfixed bugs
+   - There are no unfixed bugs.
+
 
