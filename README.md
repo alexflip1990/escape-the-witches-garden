@@ -119,6 +119,16 @@ The website was deployed using Heroku with the following steps
   -   Connect your Heroku with your GitHub account and the repository you are working with.
   - At the bottom, you can do a manual deployment or set it to automatic deployment to deploy every time your repo is updated.
 
-  The live link can be found here (https://escape-the-witches-garden-e08e9111bdcd.herokuapp.com/)
+  The live link can be found here [Escape The Witches Garden](https://escape-the-witches-garden-e08e9111bdcd.herokuapp.com/)
+
+  ## Content
+  
+ - The developer wrote all content
+
+## Credits
+
+- Page to learn how to use [Termcolor](https://pypi.org/project/termcolor/)
+- How to import time and use it [Time.sleep](https://www.digitalocean.com/community/tutorials/python-time-sleep)
+- How to get an input to accept numbers and letters only [Isalnum](https://www.programiz.com/python-programming/methods/string/isalnum)
 
 
