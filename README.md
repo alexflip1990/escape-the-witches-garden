@@ -79,4 +79,24 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 
 ![screen shot of escape garden in gameplay](assets/readme-images/escape_garden.png)
 
+## Testing
+
+  ### PEP8
+  - Python Linter was used to test the code and on final testing there are no errors.
+![screen shot of pep8 results image](assets/readme-images/pep8.png)
+
+ - I have carried out extensive testing with this project this includes running through the program ensuring each out come responds correctly, below I have shown the options chosen in game play marked with a tick to show it works
+ - [x] 1,1,1,1
+ - [x] 1,1,2,2
+ - [x] 2
+ - [x] 1,3
+ - [x] 1,2,1
+ - [x] 1,2,3
+ - [x] 1,2,2,1
+ - [x] 1,2,2,2,1
+ - [x] 1,2,2,2,2
+ - [x] 1,2,2,2,3
+ - [x] Tested code on player name to only accept numbers or letters.
+ - [x] Tested code for options input to only accept the option numbers provided.
+
 
