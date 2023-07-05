@@ -67,6 +67,11 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 ### Own path
 - Here you will to make Jimmy choose between three options, only one will get Jimmy through to the next section.
 
-![screen shot of own path image in gameplay](assets/readme-images/own_path.png) 
+![screen shot of own path image in gameplay](assets/readme-images/own_path.png)
+
+### Cyclops battle 
+- Here the player will encounter a giant cyclops, from the two options provided they will need to select the correct one to escape the cyclops.
+
+![screen shot of cyclops battle in gameplay](assets/readme-images/cyclops_battle.png)
 
 
