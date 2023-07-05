@@ -51,3 +51,9 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 
 ![screen shot of witches garden image in gameplay](assets/readme-images/witches_garden.png)
 
+### Crows path
+- Should the player choose the crows path they follow the crows story line, here there are only two options.
+
+![screen shot of crows path image in gameplay](assets/readme-images/crows_path.png)
+
+
