@@ -74,4 +74,9 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
 
 ![screen shot of cyclops battle in gameplay](assets/readme-images/cyclops_battle.png)
 
+###  Escape garden
+- The last section of the successful path and the player has three options to choose from, only one of them will result in Jimmy escaping the garden.
+
+![screen shot of escape garden in gameplay](assets/readme-images/escape_garden.png)
+
 
