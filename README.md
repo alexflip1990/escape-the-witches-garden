@@ -119,4 +119,6 @@ The website was deployed using Heroku with the following steps
   -   Connect your Heroku with your GitHub account and the repository you are working with.
   - At the bottom, you can do a manual deployment or set it to automatic deployment to deploy every time your repo is updated.
 
+  The live link can be found here (https://escape-the-witches-garden-e08e9111bdcd.herokuapp.com/)
+
 
