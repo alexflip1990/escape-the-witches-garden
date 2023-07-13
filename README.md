@@ -85,19 +85,18 @@ A fun game about escaping the Witches garden, your job is to help Jimmy make the
   - Python Linter was used to test the code and on final testing there are no errors.
 ![screen shot of pep8 results image](assets/readme-images/pep8.png)
 
- - I have carried out extensive testing with this project this includes running through the program ensuring each out come responds correctly, below I have shown the options chosen in game play marked with a tick to show it works
- - [x] 1,1,1,1
- - [x] 1,1,2,2
- - [x] 2
- - [x] 1,3
- - [x] 1,2,1
- - [x] 1,2,3
- - [x] 1,2,2,1
- - [x] 1,2,2,2,1
- - [x] 1,2,2,2,2
- - [x] 1,2,2,2,3
- - [x] Tested code on player name to only accept numbers or letters.
- - [x] Tested code for options input to only accept the option numbers provided.
+ - I have carried out extensive testing with this project this includes running through the program ensuring each out come responds correctly, below the following inputs were tested by entering numbers outside of scope - letters - symbols - 
+ empty spaces and enter.
+ - [x] witches_house > players_choice - works as expected
+ - [x] witches_garden > players_choice - works as expected
+ - [x] crows_path > players_choice - works as expected
+ - [x] candy_bush > players_choice - works as expected
+ - [x] crows_trap - works as expected
+ - [x] own_path > players_choice - works as expected
+ - [x] cyclops_battle > players_choice - works as expected
+ - [x] escape_garden > players_choice - works as expected
+ - [x] game_over > players_choice - works as expected
+ - [x] user_name_intro > username - works as expected
 
  ## Bugs
 Solved bugs
@@ -106,9 +105,21 @@ Solved bugs
  - While testing the code for the username input the code was continuously repeating the Welcome and the user name, this was resolved by using break after to exit the loop. 
 
 ## Unfixed bugs
-   - There are no unfixed bugs.
+   - There are no unfixed bugs that I'm aware of.
 
 ## Deployment
+
+   - Log into github or sign up if necessary and create an account.
+   - Complete puzzle to verify your not a robot.
+   - Questioner page is optional, can skip this section.
+   - Verify github account via email link.
+   - Using template link created by Code Institute click create new template under "Use this template."
+   - Enter repository name relevant to project, no spaces allowed so use - to separate words.
+   - Choose public visibility and click create repository from template.
+   - Once created click code button in new project and copy link, go to https://app.codeanywhere.com and log in using github.
+   - Create new workspace from dashboard by clicking New Workspace button.
+   - Paste in github repository URL and click create.
+   
 The website was deployed using Heroku with the following steps
 
  - Login to Heroku (Create an account if necessary)
